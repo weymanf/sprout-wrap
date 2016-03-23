@@ -22,6 +22,15 @@ GIT
       homebrew (>= 0.0.0)
 
 GIT
+  remote: https://github.com/pivotal-sprout/sprout-chruby
+  ref: master
+  sha: d3bf3aa75b37893808fedd706c2e3048a4da341c
+  specs:
+    sprout-chruby (0.1.0)
+      homebrew (>= 0.0.0)
+      sprout-base (>= 0.0.0)
+
+GIT
   remote: https://github.com/pivotal-sprout/sprout-git
   ref: master
   sha: 797e6a8a4ceb7cad3775c8fbfa4553aa06b39f47
@@ -125,6 +134,7 @@ GIT
 DEPENDENCIES
   osx (>= 0)
   sprout-base (>= 0)
+  sprout-chruby (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
   sprout-jetbrains-editors (>= 0)
