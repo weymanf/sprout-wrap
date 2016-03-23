@@ -25,6 +25,7 @@ recipes:
 - sprout-mysql
 - sprout-postgresql
 - sprout-osx-settings::function_keys
+- luan-vim
 
 node_attributes:
   bash_it:
